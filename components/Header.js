@@ -10,6 +10,7 @@ import {
 import Image from "next/image";
 import HeaderItem from "./HeaderItem";
 
+
 function Header() {
   return(
   <header className="flex flex-col sm:flex-row m-5 justify-between items-center">
