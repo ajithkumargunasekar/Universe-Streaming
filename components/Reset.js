@@ -11,6 +11,9 @@ export default function Reset({resetForm}){
         npassword:"",
         fpassword:"",
     });
+
+
+    
     const[errors, setErrors] = useState({})
     const [dataIsChange , setDataIsChange] = useState(false)
 
