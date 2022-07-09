@@ -2,7 +2,7 @@ import Image from "next/image";
 import {ThumbUpIcon} from "@heroicons/react/outline"
 import { forwardRef } from "react";
 
-const Thumbnail = forwardRef( ({result}, ref) => {
+const Thumbnail =  forwardRef( ({result}, ref) => {
     const BASE_URL = "https://image.tmdb.org/t/p/original/";
 
   return( 
@@ -14,6 +14,7 @@ const Thumbnail = forwardRef( ({result}, ref) => {
        `${BASE_URL}${result.backdrop_path || result.poster_path}` ||
         `${BASE_URL}${result.poster_path}`
 } 
+ alt="image"
   height={1080} width={1920} />
    
    <div className="p-2 ">

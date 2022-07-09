@@ -28,6 +28,7 @@ function Header() {
        src="/universe.png" 
        width={200}
        height={125}
+       alt="img"
        />
        
 </header>
